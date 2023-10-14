@@ -1,36 +1,47 @@
-import React, {Component} from 'react';
-import {Link, NavLink} from 'react-router-dom';
-import Sticky from 'react-stickynode';
+import React, { Component } from "react";
+import { Link, NavLink } from "react-router-dom";
+import Sticky from "react-stickynode";
 
 class CustomNavbar extends Component {
-    render() {
-        var {mClass, nClass, cClass, slogo, hbtnClass} =this.props;
-        return (
-            <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
-                <header className="header_area">
-                <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
-                    <div className={`container ${cClass}`}>
-                        <Link className={`navbar-brand ${slogo}`} to="/">
-                            <img src={require("../img/logo2.png")} alt=""/>
-                            <img src={require("../img/logo.png")} alt="logo"/>
-                        </Link>
-                        <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="menu_toggle">
-                                <span className="hamburger">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </span>
-                                <span className="hamburger-cross">
-                                    <span></span>
-                                    <span></span>
-                                </span>
-                            </span>
-                        </button>
+  render() {
+    var { mClass, nClass, cClass, slogo, hbtnClass } = this.props;
+    return (
+      <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
+        <header className="header_area">
+          <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
+            <div className={`container ${cClass}`}>
+              <Link className={`navbar-brand ${slogo}`} to="/">
+                <img src={require("../img/logo2.png")} alt="" />
+                <img src={require("../img/logo.png")} alt="logo" />
+              </Link>
+              <button
+                className="navbar-toggler collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="menu_toggle">
+                  <span className="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <span className="hamburger-cross">
+                    <span></span>
+                    <span></span>
+                  </span>
+                </span>
+              </button>
 
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className={`navbar-nav menu ml-auto ${nClass}`}>
-                                {/* <li className="nav-item dropdown submenu mega_menu mega_menu_two">
+              <div
+                className="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul className={`navbar-nav menu ml-auto ${nClass}`}>
+                  {/* <li className="nav-item dropdown submenu mega_menu mega_menu_two">
                                     <Link to="./" className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Home
                                     </Link>
@@ -236,15 +247,23 @@ class CustomNavbar extends Component {
                                     </ul>
                                 </li>
                                 <li className="nav-item"><NavLink title="Pricing" className="nav-link" to="/Contact">Contact</NavLink></li> */}
-                            </ul>
-                            <a  style={{marginTop: 10, marginBottom: 10}} className={`btn_get btn_hover ${hbtnClass}`} href="#get-app">Get Started</a>
-                        </div>
-                    </div>
-                </nav>
-                </header>
-            </Sticky>
-        );
-    }
+                </ul>
+                <a
+                  style={{ marginTop: 10, marginBottom: 10 }}
+                  className={`btn_get btn_hover ${hbtnClass}`}
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfzGkXXuyBDH1wJ3kEO-nu-lc9nKEE_MUuEUC9SEaBuvCKEMg/viewform"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Join Waitlist
+                </a>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </Sticky>
+    );
+  }
 }
 
 export default CustomNavbar;
