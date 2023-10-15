@@ -6,7 +6,7 @@ const EventFeatures =()=>{
         <section className="event_features_area">
             <div className="container">
                 <div className="hosting_title security_title text-center">
-                    <h2 className="wow fadeInUp" data-wow-delay="0.2s"><span>The Event</span>SaasLand in Town</h2>
+                    <h2 className="wow fadeInUp" data-wow-delay="0.2s"><span>The Event</span>HomeUni in Town</h2>
                 </div>
                 <div className="row event_features_inner">
                     <EventFeaturesItem url="" image="leader.png"  title="Meet the Leaders" ptext="Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly gosh do one." 

@@ -12,7 +12,7 @@ const SecurityFeatures =()=>{
                     <SecurityFeaturesItem itemClass="pr_70" image="security_1.png" Title="Share research with the whole team" pText="My good sir car boot super old owt to do with me say no biggie cheeky bugger"/>
                     <SecurityFeaturesItem itemClass="pl_70" image="security_2.png" Title="Advanced mining Traffic" pText="My good sir car boot super old owt to do with me say no biggie cheeky bugger"/>
                     <SecurityFeaturesItem itemClass="pr_70" image="security_3.png" Title="Track changes in feedback over time" pText="My good sir car boot super old owt to do with me say no biggie cheeky bugger"/>
-                    <SecurityFeaturesItem itemClass="pl_70" image="security_4.png" Title="SaasLand Document Protector" pText="My good sir car boot super old owt to do with me say no biggie cheeky bugger"/>
+                    <SecurityFeaturesItem itemClass="pl_70" image="security_4.png" Title="HomeUni Document Protector" pText="My good sir car boot super old owt to do with me say no biggie cheeky bugger"/>
                 </div>
             </div>
         </section>

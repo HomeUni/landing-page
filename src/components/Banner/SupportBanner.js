@@ -11,7 +11,7 @@ const SupportBanner =()=>{
                             <p className="f_size_18 l_height30 wow fadeInUp" data-wow-delay="0.5s">Chap fantastic skive off chancer knees up starkers easy peasy up the<br/> kyver David, bleeding the BBC tomfoolery chimney.!</p>
                             <form className="mailchimp wow fadeInUp" data-wow-delay="0.6s" method="post">
                                 <div className="input-group subcribes">
-                                    <input type="text" name="EMAIL" className="form-control memail" placeholder="saasland@gmail.com"/>
+                                    <input type="text" name="EMAIL" className="form-control memail" placeholder="homeuni@gmail.com"/>
                                     <button className="btn btn_submit f_size_15 f_500" type="submit">Get Started</button>
                                 </div>
                             </form>

@@ -7,7 +7,7 @@ const Service = () => {
         <React.Fragment>
             <section className="seo_service_area sec_pad">
                 <div className="container">
-                    <SeoTitle Title='How does it work?' TitleP='HomeUni is designed for simplicity and effectiveness. Heres how it works'/>
+                    <SeoTitle Title='How does it work?' TitleP='HomeUni is designed for simplicity and effectiveness.'/>
                     <div className="row seo_service_info">
                         <Fade bottom duration={500}>
                             <div className="col-lg-4 col-md-6">
@@ -16,7 +16,7 @@ const Service = () => {
                                     <a href=".#">
                                         <h4>Sign up for free</h4>
                                     </a>
-                                    <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                    <p>Unlock access to courses by creating a free account.</p>
                                     <a href=".#"><i className="arrow_right"></i></a>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ const Service = () => {
                                     <a href=".#">
                                         <h4>Choose your course</h4>
                                     </a>
-                                    <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                    <p>We offer a wide selection of courses across various fields. </p>
                                     <a href=".#"><i className="arrow_right"></i></a>
                                 </div>
                             </div>
@@ -38,16 +38,19 @@ const Service = () => {
                                 <div className="seo_service_item">
                                     <img src={require('../../img/seo/icon5.png')} alt=""/>
                                     <a href=".#">
-                                        <h4>Dive into engaging lessons</h4>
+                                        <h4>Start Learning!</h4>
                                     </a>
-                                    <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
+                                    <p>As you already know, Knowledge is power. </p>
                                     <a href=".#"><i className="arrow_right"></i></a>
                                 </div>
                             </div>
                         </Fade>
+
                         
                         <div className="col-lg-12 text-center mt_40">
-                            <a href=".#" className="seo_btn seo_btn_one btn_hover">G</a>
+                            <a  href="https://docs.google.com/forms/d/e/1FAIpQLSfzGkXXuyBDH1wJ3kEO-nu-lc9nKEE_MUuEUC9SEaBuvCKEMg/viewform"
+                  target="_blank"
+                  rel="noreferrer" className="seo_btn seo_btn_one btn_hover">Join Waitlist</a>
                         </div>
                     </div>
                 </div>
@@ -59,26 +62,33 @@ const Service = () => {
                             <div className="seo_features_img">
                                 <div className="round_circle"></div>
                                 <div className="round_circle two"></div>
-                                <img src={require('../../img/seo/features_img.png')} alt=""/>
+                                <img width={600} src={require('../../img/seo/features_img.png')} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <Fade bottom cascade>
                                 <div className="seo_features_content">
-                                    <h2>Get tips & tricks on how to skyrocket your sales.</h2>
-                                    <p>Faff about only a quid blower I don't want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!</p>
+                                    <h2>Explore Our Features</h2>
+                                    {/* <p>Faff about only a quid blower I don't want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!</p> */}
                                     <div className="media seo_features_item">
                                         <div className="icon"><img src={require('../../img/seo/icon4.png')} alt=""/></div>
                                         <div className="media-body">
-                                            <h3>Reporting & Analysis</h3>
-                                            <p>Naff are you taking the piss say blow off faff about wellies richard.</p>
+                                            <h3>Analytics Dashboard: </h3>
+                                            <p>Gain insights into your learning journey with detailed analytics and progress reports to track your improvement.</p>
+                                        </div>
+                                    </div>
+                                     <div className="media seo_features_item">
+                                        <div className="icon"><img src={require('../../img/seo/icon4.png')} alt=""/></div>
+                                        <div className="media-body">
+                                            <h3>Interactive Lessons: </h3>
+                                            <p>Engage with dynamic content and real-world applications.</p>
                                         </div>
                                     </div>
                                     <div className="media seo_features_item">
                                         <div className="icon two"><img src={require('../../img/seo/icon3.png')} alt=""/></div>
                                         <div className="media-body">
-                                            <h3>Reporting & Analysis</h3>
-                                            <p>Naff are you taking the piss say blow off faff about wellies richard.</p>
+                                            <h3>Personalized Learning Paths</h3>
+                                            <p>Tailor your learning experience with personalized recommendations and content paths based on your interests, skills, and goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,16 +104,23 @@ const Service = () => {
                             <div className="seo_features_img seo_features_img_two">
                                 <div className="round_circle"></div>
                                 <div className="round_circle two"></div>
-                                <img src={require('../../img/seo/features_img_two.png')} alt=""/>
+                                <img width={600} src={require('../../img/seo/features_img_two.png')} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6 d-flex align-items-center">
                             <Fade bottom cascade>
                                 <div className="seo_features_content">
-                                    <h2 className="wow fadeInUp">Get tips & tricks on how to skyrocket your sales.</h2>
-                                    <h6 className="wow fadeInUp">What a plonker bamboozled so I said say what a load of rubbish owt to do with me haggle.</h6>
-                                    <p className="wow fadeInUp">Cheeky bugger gosh codswallop chap bamboozled blatant cracking goal brown bread, pear shaped cor blimey guvnor easy peasy lemon squeezy hotpot spiffing good time, chancer a spend a penny spiffing I don't want no agro tinkety tonk old fruit.</p>
-                                    <a href=".#" className="seo_btn seo_btn_one btn_hover wow fadeInUp">Learn More</a>
+                                    <h2 className="wow fadeInUp">Ready to Start Learning?</h2>
+                                    <h6 className="wow fadeInUp">Join HomeUni Today!</h6>
+                                    <p className="wow fadeInUp"> It's time to take your learning to the next level. Sign up for free and experience the future of education.</p>
+                                    <a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSfzGkXXuyBDH1wJ3kEO-nu-lc9nKEE_MUuEUC9SEaBuvCKEMg/viewform"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="seo_btn seo_btn_one btn_hover wow fadeInUp"
+                                    >
+                                    Join Waitlist
+                                    </a>
                                 </div>
                             </Fade>
                         </div>

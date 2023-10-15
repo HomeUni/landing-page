@@ -93,7 +93,7 @@ class ErpCustomerlogo extends Component {
             <section className="erp_customer_logo_area">
                 <div className="container">
                     <div className="hosting_title erp_title text-center">
-                        <h2>Great companies that <span className="icon_heart"></span> SaasLand ERP</h2>
+                        <h2>Great companies that <span className="icon_heart"></span> HomeUni ERP</h2>
                         <p>Cack brolly butty grub chancer smashing brilliant vagabond, chimney pot blower such a fibber ummm I'm telling chinwag he lost his bottle nancy boy.</p>
                     </div>
                     <Fade bottom cascade>

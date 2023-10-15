@@ -1,15 +1,20 @@
+
+const date = new Date();
+const currentYear = date.getFullYear();
+const copyrightYear = `${currentYear}`;
+
 const FooterData = {
     CompanyWidget: [
         {
             id: 1,
             title: "Get In Touch",
-            description: "Don’t miss any updates of our new templates and extensions.!",
+            description: "Don’t miss any updates and information.!",
         }
     ],
     AboutWidget: [
         {
           id: 1,
-          title: "Download",
+          title: "Access",
           menuItems: [
               {
                 id: 1,
@@ -19,28 +24,13 @@ const FooterData = {
               {
                 id: 2,
                 url: '#',
-                text: 'Android App',
+                text: 'Android App(Coming Soon)',
               },
               {
                 id: 3,
                 url: '#',
-                text: 'ios App',
-              },
-              {
-                id: 4,
-                url: '#',
-                text: 'Desktop',
-              },
-              {
-                id: 5,
-                url: '#',
-                text: 'Projects',
-              },
-              {
-                  id: 6,
-                  url: '#',
-                  text: 'My tasks',
-              },
+                text: 'ios App(Coming Soon)',
+              }
           ],
       },
       {
@@ -58,16 +48,6 @@ const FooterData = {
                   text: 'Term & conditions',
                 },
                 {
-                  id: 3,
-                  url: '#',
-                  text: 'Reporting',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  text: 'Documentation',
-                },
-                {
                   id: 5,
                   url: '#',
                   text: 'Support Policy',
@@ -80,58 +60,48 @@ const FooterData = {
             ],
         },
     ],
-    termsCondition: [
-      {
-          id: 1,
-          title: "Team Solutions",
-          menuItems: [
-            {
-              id: 1,
-              url: '#',
-              text: 'Support',
-            },
-            {
-              id: 2,
-              url: '#',
-              text: 'Sales',
-            },
-            {
-              id: 3,
-              url: '#',
-              text: 'Report Abuse',
-            },
-            {
-              id: 4,
-              url: '#',
-              text: 'System Status',
-            }
-        ],
-      }
-    ],
+    // termsCondition: [
+    //   {
+    //       id: 1,
+    //       title: "Connc",
+    //       menuItems: [
+    //         {
+    //           id: 1,
+    //           url: '#',
+    //           text: 'Support',
+    //         },
+    //         {
+    //           id: 2,
+    //           url: '#',
+    //           text: 'Sales',
+    //         },
+    //         {
+    //           id: 3,
+    //           url: '#',
+    //           text: 'Report Abuse',
+    //         },
+    //         {
+    //           id: 4,
+    //           url: '#',
+    //           text: 'System Status',
+    //         }
+    //     ],
+    //   }
+    // ],
     SocialLinks: [
         {
             id: 1,
-            title: "Team Solutions",
+            title: "Connect",
             menuItems: [
-                {
-                  id: 1,
-                  url: '#',
-                  icon: 'ti-facebook',
-                },
                 {
                   id: 2,
                   url: '#',
                   icon: 'ti-twitter-alt',
                 },
                 {
-                  id: 3,
-                  url: '#',
-                  icon: 'ti-vimeo-alt',
-                },
-                {
                   id: 4,
                   url: '#',
-                  icon: 'ti-pinterest',
+                  icon: 'ti-instagram',
                 }
             ]
         }
@@ -150,15 +120,10 @@ const FooterData = {
       {
         id: 3,
         url: '#',
-        icon: 'ti-vimeo-alt',
-      },
-      {
-        id: 4,
-        url: '#',
-        icon: 'ti-pinterest',
+        icon: 'ti-twitter-alt',
       }
     ],
-    copywrite:"© SaasLand Inc.. 2019 All rights reserved.",
+    copywrite:`© HomeUni ${copyrightYear} All rights reserved.`,
     TestimonialText: [
       {
         id: 1,

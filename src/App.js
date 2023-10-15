@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 /*------ Pages-----*/
-import { Home } from "./Pages/Home";
+import Home from "./Pages/Home";
 import DigitalMarketing from "./Pages/Digital-marketing";
 import PaymentProcessing from "./Pages/Payment-processing";
 import HRManagement from "./Pages/HR-Management";

@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "saasland-react",
+    "name": "homeuni-react",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

@@ -46,7 +46,7 @@ class Blogrightsidebar extends Component{
                         <li> <a href=".#"><span>Gaming</span><em>(96)</em></a> </li>
                         <li> <a href=".#"><span>Music</span><em>(38)</em></a> </li>
                         <li> <a href=".#"><span>Uncategorized</span><em>(44)</em></a> </li>
-                        <li> <a href=".#"><span>SaasLand</span><em>(44)</em></a> </li>
+                        <li> <a href=".#"><span>HomeUni</span><em>(44)</em></a> </li>
                         <li> <a href=".#"><span>Project Management</span><em>(44)</em></a> </li>
                         <li> <a href=".#"><span>Wireframing</span><em>(44)</em></a> </li>
                     </ul>
@@ -57,7 +57,7 @@ class Blogrightsidebar extends Component{
                         <div className="border_bottom"></div>
                     </div>
                     <div className="post-tags">
-                        <a href=".#">SaasLand</a>
+                        <a href=".#">HomeUni</a>
                         <a href=".#">Web Design</a>
                         <a href=".#">Saas</a>
                         <a href=".#">Cooling System</a>

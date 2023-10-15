@@ -17,12 +17,14 @@ class Footer extends Component {
                                                 <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s">
                                                     <h3 className="f-title f_600 t_color f_size_18">{widget.title}</h3>
                                                     <p>{widget.description}</p>
-                                                    <form action="#" className="f_subscribe_two mailchimp" method="post">
+                                                    <a className='btn_get btn_hover' style={{marginTop: 10, marginBottom: 10, backgroundColor: '#fba249', borderColor: '#fba249', color: 'white'}} href="mailto:info@homeuni.com">Send a Mail</a>
+
+                                                    {/* <form action="#" className="f_subscribe_two mailchimp" method="post">
                                                         <input type="text" name="EMAIL" className="form-control memail" placeholder="Email"/>
                                                         <button className="btn btn_get btn_get_two" type="submit">Subscribe</button>
                                                         <p className="mchimp-errmessage" style={{display: "none"}}></p>
                                                         <p className="mchimp-sucmessage" style={{display: "none"}}></p>
-                                                    </form>
+                                                    </form> */}
                                                 </div>
                                             </div>
                                         </Reveal>
@@ -88,7 +90,7 @@ class Footer extends Component {
                                 <p className="mb-0 f_400">{FooterData.copywrite}</p>
                             </div>
                             <div className="col-lg-6 col-sm-5 text-right">
-                                <p>Made with <i className="icon_heart"></i> in <a href="/#">DroitThemes</a></p>
+                                <p>Made with <i className="icon_heart"></i> in <a href="/#">weRun Technology</a></p>
                             </div>
                         </div>
                     </div>

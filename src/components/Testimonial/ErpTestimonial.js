@@ -72,7 +72,7 @@ class ErpTestimonial extends Component {
         return(
             <section className="erp_testimonial_area sec_pad">
                 <div className="container">
-                    <Sectitle sClass="hosting_title erp_title text-center" Title="What our customers say about SaasLand ERP"/>
+                    <Sectitle sClass="hosting_title erp_title text-center" Title="What our customers say about HomeUni ERP"/>
                     <div className="row">
                         <div className="slider_nav">
                             <i className="arrow_left prev" onClick={this.previous}></i>

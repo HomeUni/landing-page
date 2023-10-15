@@ -69,7 +69,7 @@ class SequrityPrice extends Component {
             <section className="pricing_area_four sec_pad">
             <div className="container">
                 <div className="hosting_title security_title text-center">
-                    <h2 className="wow fadeInUp" data-wow-delay="0.2s"><span>SaasLand Packge.</span> Free essentials or ultimate protection?</h2>
+                    <h2 className="wow fadeInUp" data-wow-delay="0.2s"><span>HomeUni Packge.</span> Free essentials or ultimate protection?</h2>
                 </div>
                 <div className="price_info_two price_info_three">
                     <div className="price_head">
@@ -95,7 +95,7 @@ class SequrityPrice extends Component {
                                 return(
                                     <div className="pr_list" key={list.id}>
                                         <div className="price_item">
-                                        <h5 className="pr_title" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save time by using keyboard shortcuts all across SaasLand">{list.adTitle}</h5>
+                                        <h5 className="pr_title" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save time by using keyboard shortcuts all across HomeUni">{list.adTitle}</h5>
                                         </div>
                                         <div className="price_item" data-title="Free">
                                             <h5 className="check"><i className={list.icon}></i></h5>

@@ -10,7 +10,7 @@ const video = () => {
                     <div className="video_info">
                         <div className="ovarlay_color"></div>
                         <a className="popup-youtube video_icon" href="https://www.youtube.com/watch?v=sU3FkzUKHXU"><i className="arrow_triangle-right"></i></a>
-                        <h2>SaasLand</h2>
+                        <h2>HomeUni</h2>
                     </div>
                     <img className="video_leaf" src={require('../img/new/leaf.png')} alt=""/>
                     <img className="cup" src={require('../img/new/cup.png')} alt=""/>

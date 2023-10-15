@@ -29,7 +29,7 @@ const SignUpForm =()=>{
                                     </div>
                                     <div className="form-group text_box">
                                         <label className="f_p text_c f_400">Email Address</label>
-                                        <input type="text" placeholder="saasland@gmail.com"/>
+                                        <input type="text" placeholder="homeuni@gmail.com"/>
                                     </div>
                                     <div className="form-group text_box">
                                         <label className="f_p text_c f_400">Password</label>

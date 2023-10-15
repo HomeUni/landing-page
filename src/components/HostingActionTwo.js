@@ -9,7 +9,7 @@ class HostingActionTwo extends Component {
                     <div className="row align-items-center">
                         <div className="col-md-8">
                             <div className="h_promo_content">
-                                <h2>Start growing with SaasLand today!</h2>
+                                <h2>Start growing with HomeUni today!</h2>
                                 <p>30-day moneyback guarantee. No questions asked.</p>
                             </div>
                         </div>

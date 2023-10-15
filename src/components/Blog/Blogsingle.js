@@ -16,7 +16,7 @@ const Bloglists =()=>{
                                 <div className="entry_post_info">
                                     By: <a href=".#">Admin</a>
                                     <a href=".#">2 Comments</a>
-                                    <a href=".#">SaasLand</a>
+                                    <a href=".#">HomeUni</a>
                                 </div>
                                 <a href=".#">
                                     <h5 className="f_p f_size_20 f_500 t_color mb-30">Bloke cracking goal the full monty get stuffed mate posh.</h5>
@@ -39,7 +39,7 @@ const Bloglists =()=>{
                                 <div className="post_tag d-flex">
                                     <div className="post-nam"> Tags: </div>
                                     <a href=".#">Wheels</a>
-                                    <a href=".#">Saasland</a>
+                                    <a href=".#">Home Uni</a>
                                     <a href=".#">UX/Design</a>
                                 </div>
                                 <div className="media post_author mt_60">
