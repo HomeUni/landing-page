@@ -19,8 +19,8 @@ const DesignBanner = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center seo_banner_content">
-                            <Reveal effect="fadeInUp" duration={500}><h2>Drive More Customers<br/> Through Digital</h2></Reveal>
-                            <Reveal effect="fadeInUp" duration={1000}><p className="wow fadeInUp" data-wow-delay="0.5s">Chap fantastic skive off chancer knees up starkers easy peasy up the<br/> kyver David, bleeding the BBC tomfoolery chimney.!</p></Reveal>
+                            <Reveal effect="fadeInUp" duration={500}><h2>Transform Learning with <br/> Home Uni</h2></Reveal>
+                            <Reveal effect="fadeInUp" duration={1000}><p className="wow fadeInUp" data-wow-delay="0.5s">Revolutionize the Way You Learn.<br/> </p></Reveal>
                             <Reveal effect="fadeInLeft" duration={1200}><a href="./" className="seo_btn seo_btn_one btn_hover wow fadeInLeft">Get Started</a></Reveal>
                             <Reveal effect="fadeInLeft" duration={1200}><a href="./" className="seo_btn seo_btn_two btn_hover wow fadeInRight">Learn More</a></Reveal>
                         </div>

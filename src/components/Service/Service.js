@@ -7,14 +7,14 @@ const Service = () => {
         <React.Fragment>
             <section className="seo_service_area sec_pad">
                 <div className="container">
-                    <SeoTitle Title='How does it work?' TitleP='The full monty burke posh excuse my French Richard cheeky bobby spiffing crikey Why gormless, pear shaped.!'/>
+                    <SeoTitle Title='How does it work?' TitleP='HomeUni is designed for simplicity and effectiveness. Heres how it works'/>
                     <div className="row seo_service_info">
                         <Fade bottom duration={500}>
                             <div className="col-lg-4 col-md-6">
                                 <div className="seo_service_item">
                                     <img src={require('../../img/seo/icon1.png')} alt=""/>
                                     <a href=".#">
-                                        <h4>Digital Analytics</h4>
+                                        <h4>Sign up for free</h4>
                                     </a>
                                     <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
                                     <a href=".#"><i className="arrow_right"></i></a>
@@ -26,7 +26,7 @@ const Service = () => {
                                 <div className="seo_service_item">
                                     <img src={require('../../img/seo/icon2.png')} alt=""/>
                                     <a href=".#">
-                                        <h4>Digital Marketing</h4>
+                                        <h4>Choose your course</h4>
                                     </a>
                                     <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
                                     <a href=".#"><i className="arrow_right"></i></a>
@@ -38,15 +38,16 @@ const Service = () => {
                                 <div className="seo_service_item">
                                     <img src={require('../../img/seo/icon5.png')} alt=""/>
                                     <a href=".#">
-                                        <h4>Email Marketing</h4>
+                                        <h4>Dive into engaging lessons</h4>
                                     </a>
                                     <p>Twit cras excuse my French matie boy grub it's all gone to pot off his nut butty horse play blow off pardon you hanky panky.!</p>
                                     <a href=".#"><i className="arrow_right"></i></a>
                                 </div>
                             </div>
                         </Fade>
+                        
                         <div className="col-lg-12 text-center mt_40">
-                            <a href=".#" className="seo_btn seo_btn_one btn_hover">All Features</a>
+                            <a href=".#" className="seo_btn seo_btn_one btn_hover">G</a>
                         </div>
                     </div>
                 </div>
